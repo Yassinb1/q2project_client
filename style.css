@@ -1,7 +1,16 @@
-body {
+/* body {
    background-image: url("images/backround.jpg");
- }
+ } */
 
 header {
+  text-align: center;
+
+}
+
+.button-remove {
+            background: rgb(202, 60, 60); /* this is a maroon */
+        }
+
+body {
   text-align: center;
 }

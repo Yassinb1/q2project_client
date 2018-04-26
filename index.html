@@ -10,16 +10,27 @@
   <body>
 
 <header>
-  <h2>Todays To-Do List</h2>
+  <h2 class="header">Todays To-Do List</h2>
   </header>
 
-<center>
-  <form class="pure-form">
-    <input type="text" class="pure-input-rounded">
-    <button type="submit" class="pure-button">Create New Task</button>
-      </form>
-        </center>
+  <form class="pure-form pure-form-aligned">
 
-<script src="app.js"></script>
-  </body>
+          <input id="createItem" placeholder="Add New Task">
+          <select id="priority">Priority
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+        </select>
+
+    <button id="createItemButton" class="pure-button">Create Task</button>
+
+  </form>
+
+  <div id='main'>
+    <div id="all-items"></div>
+  </div>
+
+      <script src='./axios.js' type='text/javascript'></script>
+      <script src='./app.js' type='text/javascript'></script>
+
 </html>
